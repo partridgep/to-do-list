@@ -182,6 +182,9 @@ function removeLi() {
 
     //remove item to delete from array
     liToDelete.shift(); 
+
+    //adjust to-do list margin's so it stays centered in page
+    adjustListMargins();
     
 };
 
