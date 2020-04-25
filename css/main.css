@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 100vh; 
+    margin: 0;
+    background: linear-gradient(top, rgb(230,230,250), rgba(3, 232, 252, 0.3));
+    background: -webkit-linear-gradient(top, rgb(230,230,250), rgba(3, 232, 252, 0.3));
+    background-size: cover;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    margin-left: -10em;
+    top: 50%;
+    margin-top: -15em;
+    margin-bottom: -15em;
+    border: 1.3px solid black;
+    border-radius: 10px;
+    min-height: 30em;
+    min-width: 20em;
+    background: linear-gradient(top, rgb(255,255,255), rgba(232, 232, 232, 0.9));
+    background: -webkit-linear-gradient(top, rgb(255,255,255), rgba(232, 232, 232, 0.9));
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+input, button {
+    margin-top: 30px;
+    padding: 6px;
+}
+
+li {
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.placeholder_task {
+    opacity: 0.3;
+}
+
+.remove {
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+    opacity: 0.4;
+}
+
